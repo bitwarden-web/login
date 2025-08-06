@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Warden-web - The Silent Sentinel: Trust Forged in an Age of Noise</title>
+<meta content="Digital sanctuary with silent protection and privacy by design. Encrypted presence and invisible security solutions for the modern age." name="description"/>
+<meta content="index,follow,max-snippet:150,max-image-preview:large" name="robots"/>
+<link href="https://Warden-web" rel="canonical"/>
+<!-- Open Graph Tags -->
+<meta content="Warden-web - The Silent Sentinel" property="og:title"/>
+<meta content="Digital sanctuary with silent protection and privacy by design. Encrypted presence and invisible security solutions for the modern age." property="og:description"/>
+<meta content="https://placehold.co/1200x630/000000/FFFFFF?text=Warden-web" property="og:image"/>
+<meta content="https://Warden-web" property="og:url"/>
+<meta content="website" property="og:type"/>
+<!-- Twitter Card Tags -->
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Warden-web - The Silent Sentinel" name="twitter:title"/>
+<meta content="Digital sanctuary with silent protection and privacy by design. Encrypted presence and invisible security solutions." name="twitter:description"/>
+<meta content="https://placehold.co/1200x630/000000/FFFFFF?text=Warden-web" name="twitter:image"/>
+<!-- Favicon -->
+<link href="https://placehold.co/32x32/000000/FFFFFF?text=W" rel="icon" type="image/x-icon"/>
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;family=Inter:wght@400;700&amp;display=swap" rel="stylesheet"/>
+<!-- Font Awesome -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+<!-- Performance Optimization -->
+<meta content="#000000" name="theme-color"/>
+<meta content="#000000" name="msapplication-TileColor"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://Warden-web/#website",
+      "url": "https://Warden-web",
+      "name": "Warden-web",
+      "description": "The Silent Sentinel: Trust Forged in an Age of Noise",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://Warden-web/search?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://Warden-web/#organization",
+      "name": "Warden-web",
+      "url": "https://Warden-web",
+      "description": "Digital sanctuary with silent protection and privacy by design. Encrypted presence and invisible security solutions for the modern age.",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://placehold.co/400x400/000000/FFFFFF?text=Warden-web"
+      }
+    }
+  ]
+}
+</script>
+<!-- Custom Styles -->
+<style>
+body {
+  font-family: 'Inter', 'JetBrains Mono', monospace;
+  background-color: #FFFFFF;
+  color: #000000;
+  letter-spacing: 0.05em;
+  line-height: 1.6;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  margin-bottom: 24px;
+}
+
+.container {
+  max-width: 800px;
+}
+
+.btn {
+  border-radius: 0;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  transition: opacity 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  border: 2px solid #000000;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn-primary {
+  background-color: #000000;
+  border-color: #000000;
+  color: #FFFFFF;
+}
+
+.btn-outline-primary {
+  background-color: transparent;
+  border-color: #000000;
+  color: #000000;
+}
+
+input, textarea, select {
+  border-radius: 0;
+  border: 1px solid #4A4A4A;
+  font-family: inherit;
+  letter-spacing: 0.05em;
+}
+
+input:focus, textarea:focus, select:focus {
+  border-color: #000000;
+  box-shadow: none;
+}
+
+.text-muted {
+  color: #4A4A4A !important;
+}
+
+* {
+  transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+</style>
+<div class="position-fixed w-100 h-100 d-flex align-items-center justify-content-center" id="cookieConsent" style="top: 0; left: 0; background-color: rgba(0, 0, 0, 0.9); z-index: 9999;">
+<div class="bg-white p-4" style="max-width: 600px; margin: 40px; border: 2px solid #000000;">
+<div class="text-center mb-4">
+<h3 class="mb-3" style="font-family: 'Courier New', monospace; font-size: 20px; font-weight: 700; letter-spacing: 0.05em; color: #000000;">PRIVACY NOTICE</h3>
+<p style="font-family: 'Courier New', monospace; font-size: 14px; line-height: 1.6; color: #000000; margin-bottom: 24px;">
+                This digital sanctuary employs essential tracking mechanisms to maintain operational integrity and enhance your protected browsing experience. Your privacy remains our foundational principle.
+            </p>
+<p style="font-family: 'Courier New', monospace; font-size: 14px; line-height: 1.6; color: #000000; margin-bottom: 32px;">
+                By continuing, you acknowledge our commitment to silent protection while enabling necessary site functionality.
+            </p>
+</div>
+<div class="d-flex justify-content-center gap-3">
+<button class="btn px-4 py-2" id="acceptCookies" style="background-color: #000000; color: #FFFFFF; border: 2px solid #000000; font-family: 'Courier New', monospace; font-size: 14px; font-weight: 700; letter-spacing: 0.05em; transition: opacity 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94);">
+                ACCEPT
+            </button>
+<button class="btn px-4 py-2" id="declineCookies" style="background-color: #FFFFFF; color: #000000; border: 2px solid #000000; font-family: 'Courier New', monospace; font-size: 14px; font-weight: 700; letter-spacing: 0.05em; transition: opacity 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94);">
+                DECLINE
+            </button>
+</div>
+</div>
+</div>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const cookieConsent = document.getElementById('cookieConsent');
+    const acceptBtn = document.getElementById('acceptCookies');
+    const declineBtn = document.getElementById('declineCookies');
+    
+    // Check if user has already made a choice
+    const cookieChoice = localStorage.getItem('cookieConsent');
+    
+    if (cookieChoice) {
+        // User has already made a choice, hide the popup completely
+        cookieConsent.remove();
+    } else {
+        // Show the popup and add event listeners
+        acceptBtn.addEventListener('mouseenter', function() {
+            this.style.opacity = '0.8';
+        });
+        
+        acceptBtn.addEventListener('mouseleave', function() {
+            this.style.opacity = '1';
+        });
+        
+        declineBtn.addEventListener('mouseenter', function() {
+            this.style.opacity = '0.8';
+        });
+        
+        declineBtn.addEventListener('mouseleave', function() {
+            this.style.opacity = '1';
+        });
+        
+        acceptBtn.addEventListener('click', function() {
+            localStorage.setItem('cookieConsent', 'accepted');
+            hideCookieConsent();
+        });
+        
+        declineBtn.addEventListener('click', function() {
+            localStorage.setItem('cookieConsent', 'declined');
+            hideCookieConsent();
+        });
+    }
+    
+    function hideCookieConsent() {
+        cookieConsent.style.transition = 'opacity 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94)';
+        cookieConsent.style.opacity = '0';
+        
+        setTimeout(function() {
+            cookieConsent.remove();
+        }, 300);
+    }
+});
+</script>
+<script>
+// GDPR-compliant analytics with conditional loading
+(function() {
+    'use strict';
+    
+    // Privacy configuration
+    const PRIVACY_CONFIG = {
+        cookieName: 'warden_analytics_consent',
+        cookieExpiry: 365,
+        anonymizeIP: true,
+        respectDNT: true,
+        consentRequired: true
+    };
+    
+    // Check Do Not Track header
+    function respectsDoNotTrack() {
+        return navigator.doNotTrack === '1' || 
+               window.doNotTrack === '1' || 
+               navigator.msDoNotTrack === '1';
+    }
+    
+    // Cookie management
+    function setCookie(name, value, days) {
+        const expires = new Date();
+        expires.setTime(expires.getTime() + (days * 24 * 60 * 60 * 1000));
+        document.cookie = `${name}=${value};expires=${expires.toUTCString()};path=/;SameSite=Strict;Secure`;
+    }
+    
+    function getCookie(name) {
+        const nameEQ = name + '=';
+        const ca = document.cookie.split(';');
+        for (let i = 0; i < ca.length; i++) {
+            let c = ca[i];
+            while (c.charAt(0) === ' ') c = c.substring(1, c.length);
+            if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
+        }
+        return null;
+    }
+    
+    // Check consent status
+    function hasAnalyticsConsent() {
+        if (PRIVACY_CONFIG.respectDNT && respectsDoNotTrack()) {
+            return false;
+        }
+        return getCookie(PRIVACY_CONFIG.cookieName) === 'accepted';
+    }
+    
+    // Load Google Analytics 4
+    function loadGoogleAnalytics() {
+        if (!hasAnalyticsConsent()) return;
+        
+        // Create and load gtag script
+        const script = document.createElement('script');
+        script.async = true;
+        script.src = 'https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX';
+        document.head.appendChild(script);
+        
+        // Initialize gtag
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        window.gtag = gtag;
+        
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX', {
+            anonymize_ip: PRIVACY_CONFIG.anonymizeIP,
+            allow_google_signals: false,
+            allow_ad_personalization_signals: false,
+            cookie_flags: 'SameSite=Strict;Secure'
+        });
+    }
+    
+    // Load Facebook Pixel
+    function loadFacebookPixel() {
+        if (!hasAnalyticsConsent()) return;
+        
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        
+        fbq('init', 'XXXXXXXXXXXXXXXXX');
+        fbq('track', 'PageView');
+    }
+    
+    // Create consent banner
+    function createConsentBanner() {
+        if (hasAnalyticsConsent() || getCookie(PRIVACY_CONFIG.cookieName) === 'declined') {
+            return;
+        }
+        
+        const banner = document.createElement('div');
+        banner.id = 'consent-banner';
+        banner.style.cssText = `
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: #000000;
+            color: #FFFFFF;
+            padding: 24px;
+            z-index: 10000;
+            border-top: 1px solid #4A4A4A;
+            font-family: monospace;
+            font-size: 14px;
+            line-height: 1.6;
+        `;
+        
+        banner.innerHTML = `
+            <div style="max-width: 800px; margin: 0 auto; display: flex; flex-wrap: wrap; align-items: center; gap: 16px;">
+                <div style="flex: 1; min-width: 300px;">
+                    <p style="margin: 0; margin-bottom: 8px;">This site uses analytics to improve your experience while respecting your privacy.</p>
+                    <p style="margin: 0; font-size: 12px; opacity: 0.8;">
+                        <a href="/privacy-policy.html" style="color: #FFFFFF; text-decoration: underline;">Privacy Policy</a> | 
+                        Data is anonymized and encrypted
+                    </p>
+                </div>
+                <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+                    <button id="accept-analytics" style="
+                        background: #FFFFFF;
+                        color: #000000;
+                        border: none;
+                        padding: 12px 24px;
+                        font-family: monospace;
+                        font-size: 14px;
+                        font-weight: 700;
+                        cursor: pointer;
+                        transition: opacity 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+                    ">ACCEPT</button>
+                    <button id="decline-analytics" style="
+                        background: transparent;
+                        color: #FFFFFF;
+                        border: 1px solid #4A4A4A;
+                        padding: 12px 24px;
+                        font-family: monospace;
+                        font-size: 14px;
+                        cursor: pointer;
+                        transition: opacity 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+                    ">DECLINE</button>
+                </div>
+            </div>
+        `;
+        
+        document.body.appendChild(banner);
+        
+        // Add hover effects
+        const acceptBtn = banner.querySelector('#accept-analytics');
+        const declineBtn = banner.querySelector('#decline-analytics');
+        
+        acceptBtn.addEventListener('mouseenter', () => acceptBtn.style.opacity = '0.8');
+        acceptBtn.addEventListener('mouseleave', () => acceptBtn.style.opacity = '1');
+        declineBtn.addEventListener('mouseenter', () => declineBtn.style.opacity = '0.8');
+        declineBtn.addEventListener('mouseleave', () => declineBtn.style.opacity = '1');
+        
+        // Handle consent choices
+        acceptBtn.addEventListener('click', () => {
+            setCookie(PRIVACY_CONFIG.cookieName, 'accepted', PRIVACY_CONFIG.cookieExpiry);
+            banner.remove();
+            loadAnalytics();
+        });
+        
+        declineBtn.addEventListener('click', () => {
+            setCookie(PRIVACY_CONFIG.cookieName, 'declined', PRIVACY_CONFIG.cookieExpiry);
+            banner.remove();
+        });
+    }
+    
+    // Load all analytics services
+    function loadAnalytics() {
+        if (hasAnalyticsConsent()) {
+            loadGoogleAnalytics();
+            loadFacebookPixel();
+        }
+    }
+    
+    // Initialize on DOM ready
+    function init() {
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', () => {
+                createConsentBanner();
+                loadAnalytics();
+            });
+        } else {
+            createConsentBanner();
+            loadAnalytics();
+        }
+    }
+    
+    // Expose consent management functions globally
+    window.wardenAnalytics = {
+        hasConsent: hasAnalyticsConsent,
+        grantConsent: function() {
+            setCookie(PRIVACY_CONFIG.cookieName, 'accepted', PRIVACY_CONFIG.cookieExpiry);
+            loadAnalytics();
+        },
+        revokeConsent: function() {
+            setCookie(PRIVACY_CONFIG.cookieName, 'declined', PRIVACY_CONFIG.cookieExpiry);
+            // Clear existing analytics cookies
+            document.cookie = '_ga=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
+            document.cookie = '_ga_G-XXXXXXXXXX=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
+            document.cookie = '_fbp=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
+        }
+    };
+    
+    init();
+})();
+</script>
+</head>
+<body style="display: flex; flex-direction: column; min-height: 100vh;">
+<div style="flex: 1;">
+<header>
+<div class="container-fluid px-0" style="background-color: #FFFFFF; border-bottom: 1px solid #000000;">
+<div class="container" style="max-width: 800px;">
+<div class="row align-items-center py-4" style="margin: 0 40px;">
+<div class="col-md-6">
+<h1 class="mb-0" style="font-family: 'Courier New', monospace; font-size: 24px; font-weight: 700; color: #000000; letter-spacing: 0.05em; line-height: 1.2;">
+<a class="text-decoration-none" href="/" style="color: #000000;">Warden-web</a>
+</h1>
+</div>
+<div class="col-md-6">
+<nav class="d-none d-md-block">
+<ul class="list-unstyled d-flex justify-content-end mb-0" style="gap: 32px;">
+<li>
+<a class="text-decoration-none" href="posts.html" onmouseout="this.style.opacity='1'" onmouseover="this.style.opacity='0.8'" style="font-family: 'Courier New', monospace; font-size: 16px; font-weight: 400; color: #000000; letter-spacing: 0.05em; transition: opacity 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);">POSTS</a>
+</li>
+<li>
+<a class="text-decoration-none" href="about.html" onmouseout="this.style.opacity='1'" onmouseover="this.style.opacity='0.8'" style="font-family: 'Courier New', monospace; font-size: 16px; font-weight: 400; color: #000000; letter-spacing: 0.05em; transition: opacity 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);">ABOUT</a>
+</li>
+<li>
+<a class="text-decoration-none" href="contacts.html" onmouseout="this.style.opacity='1'" onmouseover="this.style.opacity='0.8'" style="font-family: 'Courier New', monospace; font-size: 16px; font-weight: 400; color: #000000; letter-spacing: 0.05em; transition: opacity 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);">CONTACTS</a>
+</li>
+<li>
+<a class="text-decoration-none" href="privacy_policy.html" onmouseout="this.style.opacity='1'" onmouseover="this.style.opacity='0.8'" style="font-family: 'Courier New', monospace; font-size: 16px; font-weight: 400; color: #000000; letter-spacing: 0.05em; transition: opacity 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);">PRIVACY</a>
+</li>
+</ul>
+</nav>
+<!-- Mobile Menu Button -->
+<div class="d-md-none text-end">
+<button aria-controls="mobileMenu" aria-expanded="false" class="btn p-0 border-0 navbar-toggler" data-bs-target="#mobileMenu" data-bs-toggle="collapse" id="burgerButton" style="background: none; outline: none; box-shadow: none;" type="button">
+<span class="burger-line" style="display: block; width: 24px; height: 2px; background-color: #000000; margin: 5px 0; transition: all 0.3s ease;"></span>
+<span class="burger-line" style="display: block; width: 24px; height: 2px; background-color: #000000; margin: 5px 0; transition: all 0.3s ease;"></span>
+<span class="burger-line" style="display: block; width: 24px; height: 2px; background-color: #000000; margin: 5px 0; transition: all 0.3s ease;"></span>
+</button>
+</div>
+</div>
+</div>
+<!-- Mobile Menu -->
+<div class="collapse d-md-none" id="mobileMenu" style="margin: 0 40px; border-top: 1px solid #000000;">
+<nav class="py-3">
+<ul class="list-unstyled mb-0">
+<li class="mb-3">
+<a class="text-decoration-none d-block" href="posts.html" style="font-family: 'Courier New', monospace; font-size: 16px; font-weight: 400; color: #000000; letter-spacing: 0.05em; padding: 8px 0;">POSTS</a>
+</li>
+<li class="mb-3">
+<a class="text-decoration-none d-block" href="about.html" style="font-family: 'Courier New', monospace; font-size: 16px; font-weight: 400; color: #000000; letter-spacing: 0.05em; padding: 8px 0;">ABOUT</a>
+</li>
+<li class="mb-3">
+<a class="text-decoration-none d-block" href="contacts.html" style="font-family: 'Courier New', monospace; font-size: 16px; font-weight: 400; color: #000000; letter-spacing: 0.05em; padding: 8px 0;">CONTACTS</a>
+</li>
+<li>
+<a class="text-decoration-none d-block" href="privacy_policy.html" style="font-family: 'Courier New', monospace; font-size: 16px; font-weight: 400; color: #000000; letter-spacing: 0.05em; padding: 8px 0;">PRIVACY</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const burgerButton = document.getElementById('burgerButton');
+    const mobileMenu = document.getElementById('mobileMenu');
+    
+    burgerButton.addEventListener('click', function() {
+        const isExpanded = this.getAttribute('aria-expanded') === 'true';
+        this.setAttribute('aria-expanded', !isExpanded);
+        
+        const lines = this.querySelectorAll('.burger-line');
+        if (!isExpanded) {
+            lines[0].style.transform = 'rotate(45deg) translate(5px, 5px)';
+            lines[1].style.opacity = '0';
+            lines[2].style.transform = 'rotate(-45deg) translate(7px, -6px)';
+        } else {
+            lines[0].style.transform = 'none';
+            lines[1].style.opacity = '1';
+            lines[2].style.transform = 'none';
+        }
+    });
+    
+    mobileMenu.addEventListener('hidden.bs.collapse', function() {
+        const lines = burgerButton.querySelectorAll('.burger-line');
+        lines[0].style.transform = 'none';
+        lines[1].style.opacity = '1';
+        lines[2].style.transform = 'none';
+        burgerButton.setAttribute('aria-expanded', 'false');
+    });
+});
+</script>
+</header>
+<div class="row">
+<div class="col-md-6">
+<div class="container-fluid px-0">
+<div class="row g-0">
+<div class="col-12">
+<div style="background-color: #FFFFFF; padding: 60px 40px; min-height: 100vh;">
+<div style="max-width: 800px; margin: 0 auto;">
+<!-- Contact Header -->
+<div style="margin-bottom: 80px;">
+<h1 style="font-family: 'Courier New', monospace; font-size: 24px; font-weight: 700; color: #000000; letter-spacing: 0.05em; margin-bottom: 40px; line-height: 1.4;">
+                            CONTACT THE SENTINEL
+                        </h1>
+<div style="width: 60px; height: 2px; background-color: #000000; margin-bottom: 40px;"></div>
+<p style="font-family: 'Courier New', monospace; font-size: 16px; font-weight: 400; color: #000000; line-height: 1.6; letter-spacing: 0.05em; margin-bottom: 0;">
+                            Reach out through secure channels. Your digital sanctuary awaits correspondence through encrypted pathways of communication.
+                        </p>
+</div>
+<!-- Contact Information with Schema Markup -->
+<div itemscope="" itemtype="https://schema.org/Organization" style="margin-bottom: 80px;">
+<meta content="Warden-web" itemprop="name"/>
+<meta content="The Silent Sentinel: Trust Forged in an Age of Noise" itemprop="description"/>
+<!-- Address Block -->
+<div style="margin-bottom: 60px; padding: 40px; border: 2px solid #000000; background-color: #FFFFFF;">
+<h2 style="font-family: 'Courier New', monospace; font-size: 18px; font-weight: 700; color: #000000; letter-spacing: 0.05em; margin-bottom: 24px;">
+                                PHYSICAL COORDINATES
+                            </h2>
+<div itemprop="address" itemscope="" itemtype="https://schema.org/PostalAddress">
+<div style="font-family: 'Courier New', monospace; font-size: 14px; font-weight: 400; color: #000000; line-height: 1.6; letter-spacing: 0.05em;">
+<div style="margin-bottom: 8px;">
+<span itemprop="streetAddress">1247 Cipher Boulevard</span>
+</div>
+<div style="margin-bottom: 8px;">
+<span itemprop="addressLocality">San Francisco</span>, 
+                                        <span itemprop="addressRegion">CA</span>
+<span itemprop="postalCode">94102</span>
+</div>
+<div>
+<span itemprop="addressCountry">United States</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Phone Block -->
+<div style="margin-bottom: 60px; padding: 40px; border: 2px solid #000000; background-color: #FFFFFF;">
+<h2 style="font-family: 'Courier New', monospace; font-size: 18px; font-weight: 700; color: #000000; letter-spacing: 0.05em; margin-bottom: 24px;">
+                                VOICE TRANSMISSION
+                            </h2>
+<div style="font-family: 'Courier New', monospace; font-size: 14px; font-weight: 400; color: #000000; line-height: 1.6; letter-spacing: 0.05em;">
+<a href="tel:+14155552847" itemprop="telephone" onmouseout="this.style.opacity='1'" onmouseover="this.style.opacity='0.8'" style="color: #000000; text-decoration: none; transition: opacity 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);">
+                                    +1 (415) 555-2847
+                                </a>
+</div>
+<div style="font-family: 'Courier New', monospace; font-size: 12px; font-weight: 400; color: #4A4A4A; line-height: 1.6; letter-spacing: 0.05em; margin-top: 16px;">
+                                Available Monday through Friday, 9:00 AM - 6:00 PM PST
+                            </div>
+</div>
+<!-- Email Block -->
+<div style="margin-bottom: 60px; padding: 40px; border: 2px solid #000000; background-color: #FFFFFF;">
+<h2 style="font-family: 'Courier New', monospace; font-size: 18px; font-weight: 700; color: #000000; letter-spacing: 0.05em; margin-bottom: 24px;">
+                                ENCRYPTED CORRESPONDENCE
+                            </h2>
+<div style="font-family: 'Courier New', monospace; font-size: 14px; font-weight: 400; color: #000000; line-height: 1.6; letter-spacing: 0.05em; margin-bottom: 16px;">
+<a href="mailto:sentinel@warden-web.com" itemprop="email" onmouseout="this.style.opacity='1'" onmouseover="this.style.opacity='0.8'" style="color: #000000; text-decoration: none; transition: opacity 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);">
+                                    sentinel@warden-web.com
+                                </a>
+</div>
+<div style="font-family: 'Courier New', monospace; font-size: 12px; font-weight: 400; color: #4A4A4A; line-height: 1.6; letter-spacing: 0.05em;">
+                                PGP Key: 4096-bit RSA encryption available upon request
+                            </div>
+</div>
+<!-- Business Hours -->
+<div style="margin-bottom: 60px; padding: 40px; border: 2px solid #000000; background-color: #FFFFFF;">
+<h2 style="font-family: 'Courier New', monospace; font-size: 18px; font-weight: 700; color: #000000; letter-spacing: 0.05em; margin-bottom: 24px;">
+                                OPERATIONAL HOURS
+                            </h2>
+<div style="font-family: 'Courier New', monospace; font-size: 14px; font-weight: 400; color: #000000; line-height: 1.6; letter-spacing: 0.05em;">
+<div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
+<span>Monday - Friday</span>
+<span>09:00 - 18:00 PST</span>
+</div>
+<div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
+<span>Saturday</span>
+<span>10:00 - 16:00 PST</span>
+</div>
+<div style="display: flex; justify-content: space-between;">
+<span>Sunday</span>
+<span>Closed</span>
+</div>
+</div>
+</div>
+<!-- Security Notice -->
+<div style="padding: 40px; background-color: #000000; color: #FFFFFF;">
+<h3 style="font-family: 'Courier New', monospace; font-size: 16px; font-weight: 700; color: #FFFFFF; letter-spacing: 0.05em; margin-bottom: 24px;">
+                                SECURITY PROTOCOL
+                            </h3>
+<p style="font-family: 'Courier New', monospace; font-size: 14px; font-weight: 400; color: #FFFFFF; line-height: 1.6; letter-spacing: 0.05em; margin-bottom: 0;">
+                                All communications are monitored for security purposes. Sensitive information should be transmitted through encrypted channels only. Your privacy by design is our foundational principle in this digital sanctuary.
+                            </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="container-fluid p-0">
+<div class="p-5" style="background-color: #FFFFFF; min-height: 100vh;">
+<div class="row justify-content-center">
+<div class="col-12" style="max-width: 400px;">
+<h2 class="mb-5" style="font-family: 'Courier New', monospace; font-size: 24px; font-weight: 700; color: #000000; letter-spacing: 0.05em; line-height: 1.6;">SECURE CONTACT</h2>
+<form class="needs-validation" id="contactForm" novalidate="">
+<div class="mb-4">
+<label class="form-label" for="contactName" style="font-family: 'Courier New', monospace; font-size: 14px; font-weight: 400; color: #000000; letter-spacing: 0.05em; margin-bottom: 12px; display: block;">NAME</label>
+<input aria-describedby="nameHelp" class="form-control" id="contactName" name="name" required="" style="font-family: 'Courier New', monospace; font-size: 14px; background-color: #FFFFFF; border: 2px solid #000000; border-radius: 0; padding: 16px; color: #000000; letter-spacing: 0.05em;" type="text"/>
+<div class="invalid-feedback" style="font-family: 'Courier New', monospace; font-size: 12px; color: #000000; margin-top: 8px;">
+                            Please provide your name.
+                        </div>
+</div>
+<div class="mb-4">
+<label class="form-label" for="contactEmail" style="font-family: 'Courier New', monospace; font-size: 14px; font-weight: 400; color: #000000; letter-spacing: 0.05em; margin-bottom: 12px; display: block;">EMAIL</label>
+<input aria-describedby="emailHelp" class="form-control" id="contactEmail" name="email" required="" style="font-family: 'Courier New', monospace; font-size: 14px; background-color: #FFFFFF; border: 2px solid #000000; border-radius: 0; padding: 16px; color: #000000; letter-spacing: 0.05em;" type="email"/>
+<div class="invalid-feedback" style="font-family: 'Courier New', monospace; font-size: 12px; color: #000000; margin-top: 8px;">
+                            Please provide a valid email address.
+                        </div>
+</div>
+<div class="mb-4">
+<label class="form-label" for="contactSubject" style="font-family: 'Courier New', monospace; font-size: 14px; font-weight: 400; color: #000000; letter-spacing: 0.05em; margin-bottom: 12px; display: block;">SUBJECT</label>
+<select class="form-select" id="contactSubject" name="subject" required="" style="font-family: 'Courier New', monospace; font-size: 14px; background-color: #FFFFFF; border: 2px solid #000000; border-radius: 0; padding: 16px; color: #000000; letter-spacing: 0.05em;">
+<option value="">Select topic</option>
+<option value="privacy">Privacy Inquiry</option>
+<option value="security">Security Question</option>
+<option value="digital-sanctuary">Digital Sanctuary</option>
+<option value="encrypted-presence">Encrypted Presence</option>
+<option value="general">General Inquiry</option>
+</select>
+<div class="invalid-feedback" style="font-family: 'Courier New', monospace; font-size: 12px; color: #000000; margin-top: 8px;">
+                            Please select a subject.
+                        </div>
+</div>
+<div class="mb-5">
+<label class="form-label" for="contactMessage" style="font-family: 'Courier New', monospace; font-size: 14px; font-weight: 400; color: #000000; letter-spacing: 0.05em; margin-bottom: 12px; display: block;">MESSAGE</label>
+<textarea aria-describedby="messageHelp" class="form-control" id="contactMessage" name="message" required="" rows="6" style="font-family: 'Courier New', monospace; font-size: 14px; background-color: #FFFFFF; border: 2px solid #000000; border-radius: 0; padding: 16px; color: #000000; letter-spacing: 0.05em; resize: vertical; min-height: 120px;"></textarea>
+<div class="invalid-feedback" style="font-family: 'Courier New', monospace; font-size: 12px; color: #000000; margin-top: 8px;">
+                            Please provide your message.
+                        </div>
+</div>
+<button class="btn w-100 mb-4" onmouseout="this.style.backgroundColor='#000000'; this.style.color='#FFFFFF';" onmouseover="this.style.backgroundColor='#FFFFFF'; this.style.color='#000000';" style="font-family: 'Courier New', monospace; font-size: 16px; font-weight: 700; background-color: #000000; color: #FFFFFF; border: 2px solid #000000; border-radius: 0; padding: 16px 24px; letter-spacing: 0.05em; transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);" type="submit">
+                        SEND MESSAGE
+                    </button>
+</form>
+<div class="alert" id="successMessage" role="alert" style="display: none; background-color: #000000; color: #FFFFFF; border: 2px solid #000000; border-radius: 0; padding: 24px; font-family: 'Courier New', monospace; font-size: 14px; letter-spacing: 0.05em; margin-top: 24px;">
+<h4 style="font-size: 16px; font-weight: 700; margin-bottom: 12px;">MESSAGE TRANSMITTED</h4>
+<p style="margin-bottom: 0; line-height: 1.6;">Your secure communication has been received. We will respond through encrypted channels within 24 hours.</p>
+</div>
+<div class="mt-4" style="font-family: 'Courier New', monospace; font-size: 12px; color: #4A4A4A; letter-spacing: 0.05em; line-height: 1.6;">
+<p style="margin-bottom: 0;">All communications are processed through our digital sanctuary infrastructure with privacy by design principles.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+(function() {
+    'use strict';
+    
+    const form = document.getElementById('contactForm');
+    const successMessage = document.getElementById('successMessage');
+    
+    // Custom input styling on focus
+    const inputs = form.querySelectorAll('input, select, textarea');
+    inputs.forEach(input => {
+        input.addEventListener('focus', function() {
+            this.style.borderColor = '#4A4A4A';
+            this.style.outline = 'none';
+        });
+        
+        input.addEventListener('blur', function() {
+            this.style.borderColor = '#000000';
+        });
+    });
+    
+    form.addEventListener('submit', function(event) {
+        event.preventDefault();
+        event.stopPropagation();
+        
+        if (form.checkValidity()) {
+            // Simulate form submission
+            const submitButton = form.querySelector('button[type="submit"]');
+            const originalText = submitButton.textContent;
+            
+            submitButton.textContent = 'TRANSMITTING...';
+            submitButton.disabled = true;
+            submitButton.style.opacity = '0.8';
+            
+            setTimeout(() => {
+                form.style.display = 'none';
+                successMessage.style.display = 'block';
+                
+                // Fade in effect for success message
+                successMessage.style.opacity = '0';
+                setTimeout(() => {
+                    successMessage.style.transition = 'opacity 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94)';
+                    successMessage.style.opacity = '1';
+                }, 10);
+                
+            }, 1500);
+        }
+        
+        form.classList.add('was-validated');
+    });
+    
+    // Real-time validation feedback
+    inputs.forEach(input => {
+        input.addEventListener('input', function() {
+            if (this.checkValidity()) {
+                this.classList.remove('is-invalid');
+                this.classList.add('is-valid');
+            } else {
+                this.classList.remove('is-valid');
+                this.classList.add('is-invalid');
+            }
+        });
+    });
+})();
+</script>
+<style>
+.form-control:focus,
+.form-select:focus {
+    box-shadow: none !important;
+}
+
+.form-control.is-valid,
+.form-select.is-valid {
+    border-color: #000000 !important;
+    background-image: none !important;
+}
+
+.form-control.is-invalid,
+.form-select.is-invalid {
+    border-color: #000000 !important;
+    background-image: none !important;
+}
+
+.was-validated .form-control:valid,
+.was-validated .form-select:valid {
+    border-color: #000000 !important;
+}
+
+.was-validated .form-control:invalid,
+.was-validated .form-select:invalid {
+    border-color: #000000 !important;
+}
+</style>
+</div>
+</div>
+</div>
+<footer style="width: 100%; z-index: 1000;">
+<footer class="bg-black text-white py-5 mt-auto">
+<div class="container" style="max-width: 800px;">
+<div class="row">
+<div class="col-lg-4 mb-4">
+<h5 class="fw-bold mb-3" style="font-size: 18px; letter-spacing: 0.05em;">Warden-web</h5>
+<p style="font-size: 14px; line-height: 1.6; color: #FFFFFF; opacity: 0.9;">The Silent Sentinel: Trust Forged in an Age of Noise. Your digital sanctuary where privacy meets protection through encrypted presence and invisible armor.</p>
+</div>
+<div class="col-lg-4 mb-4">
+<h6 class="fw-bold mb-3" style="font-size: 16px; letter-spacing: 0.05em;">Navigation</h6>
+<ul class="list-unstyled">
+<li class="mb-2"><a class="text-white text-decoration-none" href="posts.html" onmouseout="this.style.opacity='0.9'" onmouseover="this.style.opacity='0.8'" style="font-size: 14px; opacity: 0.9; transition: opacity 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);">Posts</a></li>
+<li class="mb-2"><a class="text-white text-decoration-none" href="about.html" onmouseout="this.style.opacity='0.9'" onmouseover="this.style.opacity='0.8'" style="font-size: 14px; opacity: 0.9; transition: opacity 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);">About</a></li>
+<li class="mb-2"><a class="text-white text-decoration-none" href="contacts.html" onmouseout="this.style.opacity='0.9'" onmouseover="this.style.opacity='0.8'" style="font-size: 14px; opacity: 0.9; transition: opacity 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);">Contacts</a></li>
+<li class="mb-2"><a class="text-white text-decoration-none" href="privacy_policy.html" onmouseout="this.style.opacity='0.9'" onmouseover="this.style.opacity='0.8'" style="font-size: 14px; opacity: 0.9; transition: opacity 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);">Privacy Policy</a></li>
+</ul>
+</div>
+<div class="col-lg-4 mb-4">
+<h6 class="fw-bold mb-3" style="font-size: 16px; letter-spacing: 0.05em;">Contact Information</h6>
+<div itemscope="" itemtype="https://schema.org/Organization">
+<meta content="Warden-web" itemprop="name"/>
+<div itemprop="address" itemscope="" itemtype="https://schema.org/PostalAddress">
+<p style="font-size: 14px; line-height: 1.6; margin-bottom: 8px;">
+<span itemprop="streetAddress">1247 Cipher Boulevard</span><br/>
+<span itemprop="addressLocality">San Francisco</span>, <span itemprop="addressRegion">CA</span> <span itemprop="postalCode">94102</span>
+</p>
+</div>
+<p style="font-size: 14px; line-height: 1.6; margin-bottom: 8px;">
+<span itemprop="telephone">+1 (415) 847-9263</span>
+</p>
+<p style="font-size: 14px; line-height: 1.6; margin-bottom: 16px;">
+<span itemprop="email">contact@warden-web.com</span>
+</p>
+</div>
+<div class="d-flex gap-3">
+<a class="text-white" href="https://twitter.com" onmouseout="this.style.opacity='0.9'" onmouseover="this.style.opacity='0.8'" style="font-size: 20px; opacity: 0.9; transition: opacity 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);" target="_blank">
+<i class="fab fa-twitter"></i>
+</a>
+<a class="text-white" href="https://linkedin.com" onmouseout="this.style.opacity='0.9'" onmouseover="this.style.opacity='0.8'" style="font-size: 20px; opacity: 0.9; transition: opacity 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);" target="_blank">
+<i class="fab fa-linkedin"></i>
+</a>
+<a class="text-white" href="https://github.com" onmouseout="this.style.opacity='0.9'" onmouseover="this.style.opacity='0.8'" style="font-size: 20px; opacity: 0.9; transition: opacity 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);" target="_blank">
+<i class="fab fa-github"></i>
+</a>
+<a class="text-white" href="https://telegram.org" onmouseout="this.style.opacity='0.9'" onmouseover="this.style.opacity='0.8'" style="font-size: 20px; opacity: 0.9; transition: opacity 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);" target="_blank">
+<i class="fab fa-telegram"></i>
+</a>
+</div>
+</div>
+</div>
+<hr style="border-color: #4A4A4A; margin: 40px 0 24px 0;"/>
+<div class="row align-items-center">
+<div class="col-md-6">
+<p style="font-size: 14px; margin: 0; opacity: 0.8;">© 2024 Warden-web. All rights reserved.</p>
+</div>
+<div class="col-md-6 text-md-end">
+<p style="font-size: 14px; margin: 0; opacity: 0.8;">Digital sanctuary built with precision and purpose.</p>
+</div>
+</div>
+</div>
+</footer>
+</footer>
+</body>
+</html>
